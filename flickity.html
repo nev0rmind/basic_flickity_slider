@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+
+
+</head>
+<body>
+
+    
+    
+    
+
+      <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "fade": true, "imagesLoaded": true }'>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image"  src="https://cdn.shopify.com/s/files/1/0536/4403/4219/files/Fermerture_Eclair_rosegold_1.png?v=1617117469">
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image"  src="https://cdn.shopify.com/s/files/1/0536/4403/4219/files/Fermerture_Eclair_noBG_1.png?v=1617117470">
+        </div>
+        <div class="carousel-cell">
+            <img class="carousel-cell-image"  src="https://cdn.shopify.com/s/files/1/0536/4403/4219/files/Fermerture_Eclair_whitegold_1.png?v=1617117470">
+        </div>
+      </div>  
+
+    
+
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css" media="screen">
+        <script src="https://unpkg.com/flickity@2.2/dist/flickity.pkgd.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/flickity-fade@1/flickity-fade.css">
+        <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
+</body>
+
+<style>
+    .main-carousel {
+    background: #222;
+  }
+  
+  .carousel-cell {
+    width: 100%;
+    height: 300px;
+    margin-right: 10px;
+    /* center images in cells with flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+  }
+  
+  .carousel-cell-image {
+    display: block;
+    max-height: 100%;
+  }
+  
+    
+  </style>
+</html>
+
+
